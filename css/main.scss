@@ -1,0 +1,37 @@
+//Variables
+$color-blue: #54b8cd;
+$color-brown: #582a12;
+
+//General config
+* {
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+//Index 
+body {
+
+    main {
+        background: url(../img/Background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            h1 {
+            color: $color-brown;
+            margin: 2rem;
+            }
+
+            img {
+            width: 30%;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+body main {
+  background: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body main .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body main .row h1 {
+  color: #582a12;
+  margin: 2rem;
+}
+body main .row img {
+  width: 30%;
+}
+
+/*# sourceMappingURL=main.css.map */
